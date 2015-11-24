@@ -3,7 +3,7 @@
 
 module.exports = (robot) ->
 
-  enterReplies = ['Hi', 'Target Acquired', 'Firing', 'Hello friend.', 'Gotcha', 'I see you']
+  # enterReplies = ['Hi', 'Target Acquired', 'Firing', 'Hello friend.', 'Gotcha', 'I see you']
 
   robot.enter (res) ->
     if res.message.room == "general"
